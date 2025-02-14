@@ -1,13 +1,7 @@
 {
     "name": "gearmagicru/gm-be-tags",
-    "description": "Control panel module \"Tag manager\"",
-    "keywords": [
-        "gm",
-        "gearmagic",
-        "GM Panel",
-        "module",
-        "tags"
-    ],
+    "description": "Control Panel module \"Tag manager\"",
+    "keywords": ["gearmagic", "gm-panel", "gm-component", "gm-module", "module", "tags"],
     "homepage": "https://apps.gearmagic.ru/component/gm-be-tags",
     "type": "component",
     "license": "MIT",
