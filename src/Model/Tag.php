@@ -9,10 +9,6 @@
 
 namespace Gm\Backend\Tags\Model;
 
-use Gm;
-use Closure;
-use Gm\Db\Sql\Where;
-use Gm\Db\Sql\Select;
 use Gm\Db\ActiveRecord;
 
 /**
@@ -49,9 +45,12 @@ class Tag extends ActiveRecord
             'id'         => 'id', // идентификатор метки
             'languageId' => 'language_id', // идентификатор языка
             'name'       => 'name', // название метки
+            'desc'       => 'desc', // описание метки
+            'image'      => 'image', // изображение метки
+            'style'      => 'style', // стиль отображения метки
             'slug'       => 'slug', // слаг метки
-            'articles'   => 'articles', // количество статей имеющие метку
-            'hits'       => 'hits', // количество просмотров
+            'counter'    => 'counter', // количество элементов связанных с меткой
+            'hits'       => 'hits', // количество просмотров метки
             'visible'    => 'visible' // видимость метки
         ];
     }
