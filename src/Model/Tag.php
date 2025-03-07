@@ -93,4 +93,17 @@ class Tag extends ActiveRecord
         else
             return $this->fetchAll($this->primaryKey(), $this->maskedAttributes(), ['visible' => 1]);
     }
+
+    /**
+     * Удаляет все записи.
+     * 
+     * @throws \Gm\Db\Adapter\Driver\Exception\CommandException Невозможно выполнить инструкцию SQL.
+     */
+    public function deleteAll()
+    {
+        $this->getDb()
+            ->createCommand()
+                ->truncateTable($this->tableName())
+                ->execute();
+    }
 }
