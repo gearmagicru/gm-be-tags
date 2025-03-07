@@ -11,6 +11,9 @@
 ![Component ID: gm-be-tags](https://img.shields.io/badge/component%20id-gm.be.tags-green.svg)
 ![php 8.2+](https://img.shields.io/badge/php-min%208.2-red.svg)
 
+## Скриншот
+<img src="https://github.com/gearmagicru/gm-be-tags/blob/master/assets/help/grid.png?raw=true">
+
 ## Установка
 
 Для добавления модуля в ваш проект, вы можете просто выполнить команду ниже:
