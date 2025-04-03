@@ -49,7 +49,7 @@
     {
         "xtype": "numberfield",
         "fieldLabel": "#Hits",
-        "tooltip": "#Count of views",
+        "tooltip": "#Count of hits",
         "name": "hits",
         "minValue": 0,
         "value": 0,
@@ -57,7 +57,7 @@
     },
     {
         "xtype": "checkbox",
-        "fieldLabel": "#Visible",
+        "fieldLabel": "#Visibility",
         "name": "visible",
         "ui": "switch",
         "checked": true
