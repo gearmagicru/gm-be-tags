@@ -103,7 +103,7 @@ class TabGrid extends \Gm\Panel\Widget\TabGrid
                 'text'      => ExtGrid::columnIcon('gm-tags__icon-hits', 'svg'),
                 'dataIndex' => 'hits',
                 'filter'    => ['type' => 'number'],
-                'tooltip'   => '#Count of views',
+                'tooltip'   => '#Count of hits',
                 'align'     => 'center',
                 'width'     => 50
             ],
@@ -119,7 +119,7 @@ class TabGrid extends \Gm\Panel\Widget\TabGrid
                 'text'      => ExtGrid::columnIcon('g-icon-m_visible', 'svg'),
                 'xtype'     => 'g-gridcolumn-switch',
                 'filter'    => ['type' => 'boolean'],
-                'tooltip'   => '#Show / hide tag',
+                'tooltip'   => '#Visibility',
                 'selector'  => 'grid',
                 'collectData' => ['name'],
                 'dataIndex' => 'visible'
